@@ -1,0 +1,19 @@
+{
+    "name": "saymon/orm",
+    "type": "project",
+    "require": {
+        "doctrine/orm": "^2.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johnny Saymon",
+            "email": "saymon@ciebit.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/classes"
+        }
+    }
+}
