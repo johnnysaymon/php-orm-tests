@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 require __DIR__.'/../vendor/autoload.php';
 
-use App\Entities\User;
+use App\Entities\Users\User;
 use App\Factories\EntityManager as EntityManagerFactory;
 use App\Settings\Database as DatabaseSettings;
 

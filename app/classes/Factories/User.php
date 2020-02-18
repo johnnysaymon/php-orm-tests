@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Factories;
 
-use App\Entities\User as UserEntity;
+use App\Entities\Users\User as UserEntity;
 
 class User
 {
